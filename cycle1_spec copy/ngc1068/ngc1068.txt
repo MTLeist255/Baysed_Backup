@@ -1,0 +1,3 @@
+# ngc1068 13 0
+#ID z_min z_max E(B-V) F110W F110W_err F160W F160W_err F222M F222M_err naco2p42 naco2p42_err nacoMp nacoMp_err F315 F315_err F371 F371_err A53 A53_err pacs70 pacs70_err pacs160 pacs160_err spire250 spire250_err spire350 spire350_err spire500 spire500_err
+Ngc1068 0.00314084 0.00314084 0 0.0098 0.002 0.098 0.015 0.445 0.1 0.92 0.14 2.27 3.4 28.8 1.8 29.7 2.5 23.8 4.8 40.8 2.19 9.56 0.54 7.41 0.42 9.74 0.55 5.29 0.3

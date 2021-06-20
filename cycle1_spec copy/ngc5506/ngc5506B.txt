@@ -1,0 +1,3 @@
+# ngc5506 12 0
+#ID z_min z_max E(B-V) nacoJ nacoJ_err nacoH nacoH_err nacoK nacoK_err nacoLp nacoLp_err ukirtM ukirtM_err F315 F315_err pacs70 pacs70_err pacs100 pacs100_err pacs160 pacs160_err spire250 spire250_err spire350 spire350_err spire500 spire500_err
+Ngc5506 0.00726494 0.00726494 0 0.013 0.003 0.053 0.008 0.08 0.012 0.29 0.044 0.53 0.106 4.11 0.69 6.781 0.342 6.405 0.323 3.92 0.217 1.23 0.07 0.534 0.032 0.256 0.015

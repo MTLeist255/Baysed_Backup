@@ -1,0 +1,32 @@
+# Fullcommand to run
+# this runs the stellar + clumpy + gb outputs -> edit accordingly
+
+# 1) bc2003_BASEL_chab
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,bc2003_lr_BaSeL_chab,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/bc2003_BASEL_chab/mrk3 --save_bestfit
+
+# 2) bc2003_BASEL_salp
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,bc2003_lr_BaSeL_salp,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/bc2003_BASEL_salp/mrk3 --save_bestfit
+
+# 3) BPASSv2_300b
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,BPASSv2_imf135_300b,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/BPASSv2_300b/mrk3 --save_bestfit
+
+# 4) BPASSv2_300s
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,BPASSv2_imf135_300s,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/BPASSv2_300s/mrk3 --save_bestfit
+
+# 5) cb2007_BASEL_chab
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,cb2007_lr_BaSeL_chab,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/cb2007_BASEL_chab/mrk3 --save_bestfit
+
+# 6) cb2007_BASEL_salp
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,cb2007_lr_BaSeL_salp,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/cb2007_BASEL_salp/mrk3 --save_bestfit
+
+# 11) galev0_Kroupa
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,galev0_Kroupa,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/galev0_kroupa/mrk3 --save_bestfit
+
+# 12) galev0_salpeta
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,galev0_Salpeter,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/galev0_salpeta/mrk3 --save_bestfit
+
+# 13) m05krr
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,m05krr,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/m05krr/mrk3 --save_bestfit
+
+# 14) m05ssr
+time ./bin/mac/bayesed --sampling 1,0,0,2000,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 0,cycle1/mrk3/mrk3.txt --filters cycle1/mrk3/filters.txt --filters_selected cycle1/mrk3/filters_selected.txt --ssp 0,m05ssr,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 -gb 1,gb,1,1,1,1000,200 --sys_err_obs 0,1 --outdir Outputs/stellarclumpyGB/m05ssr/mrk3 --save_bestfit

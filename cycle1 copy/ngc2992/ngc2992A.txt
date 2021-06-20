@@ -1,0 +1,3 @@
+# ngc2992 11 0
+#ID z_min z_max E(B-V) wise1 wise1_err wise2 wise2_err wise3 wise3_err wise4 wise4_err F315 F315_err pacs70 pacs70_err pacs100 pacs100_err pacs160 pacs160_err spire250 spire250_err spire350 spire350_err spire500 spire500_err
+Ngc2992 0.00771 0.00771 0 0.076 0 0.062 0 0.313 0 0.964 0 1.76 0.21 3.84 0.2 4.703 0.24 5.014 0.29 1.85 0.1 0.739 0.04 0.539 0.03

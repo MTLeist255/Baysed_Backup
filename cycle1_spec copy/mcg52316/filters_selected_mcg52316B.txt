@@ -1,0 +1,16 @@
+#iused iselected id name
+1 1 0 ukirtJ	#
+1 1 1 ukirtH	#
+1 1 2 ukirtK	#
+1 1 3 ukirtLp	#
+1 1 4 ukirtM	#
+1 1 5 F315	#
+1 1 6 A53	#
+1 1 7 pacs70	#
+1 1 8 C89	#
+1 1 9 D154	#
+1 1 10 pacs160	#
+1 1 11 spire250	#
+1 1 12 spire350	#
+1 1 13 spire500	#
+

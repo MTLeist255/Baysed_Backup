@@ -1,0 +1,4 @@
+# ngc2273 13 0
+#ID z_min z_max E(B-V) F160W F160W_err F315 F315_err F371 F371_err A53 A53_err pacs70 pacs70_err C89 C89_err pacs100 pacs100_err D154 D154_err pacs160 pacs160_err E214 E214_err  spire250 spire250_err spire350 spire350_err spire500 spire500_err
+Ngc2273 0.00614 0.00614 0 0.00032	0.00028 1.9	0.2 2.7	0.3 4.302	0.57 5.147	0.26 6.586	0.96 5.983	0.3 5.426	0.75 5.748	0.3 3.792	0.59 2.272	0.13 0.934	0.05 0.186	0.01
+

@@ -1,0 +1,3 @@
+./bin/train_knn clumpy201410tor 1 1 1e-6 mac
+./bin/train_knn clumpy201410tor_derived 1 0 1e-6 mac
+time ./bin/mac/bayesed --sampling 1,0,0,200,0.8,0.1,1000,-1e90,1,1,0,0,-1e90,100000,0.01 -i 1,observation/hlsps/test.txt --filters observation/hlsps/filters.txt --filters_selected observation/hlsps/filters_selected_gal.txt --ssp 0,bc2003_lr_BaSeL_kroup,1,3,1,0,0,0,0,0 --sfh 0,2,0,0 --ext 0,7 -ak 1,clumpy201410tor,1,1,1,0,0 --sys_err_obs 0,1 --outdir galsedatlas0 --save_bestfit

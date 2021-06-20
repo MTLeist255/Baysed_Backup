@@ -1,0 +1,20 @@
+um='{/Symbol m}m'
+lam='{/Symbol l}'
+Jy='Jy'
+set log xy 10
+set xlabel lam.'_{obs}/'.um
+set ylabel 'Flux/'.Jy
+set title 'Centaurus A'
+set  key top left
+set term postscript enhanced color eps lw 3 dl 2
+
+# Plot command for various outputs: uncomment accordingly to include stellar component
+set output 'plots/cycle_2/cenA/cenA_SSPCGB.eps'
+plot 'Outputs/stellarclumpyGB/cenA/cenA/cenA/6clumpy201410tor_8gb_10csp200_bc2003_lr_BaSeL_kroup000_hyperz5_bestfit_TRIM.txt' index 0 u 8:9:10 w ye t 'Photometry','' index 1 u 2:3 w l t 'AGN dust torus emission','' index 2 u 2:3 w l t 'Graybody','' index 4 u 2:3 w l t 'Best-fit',''  index 3 u 2:3 w l t 'stellar emission'
+ 
+#,''  index 3 u 2:3 w l t 'stellar emission'
+#,''  index 3 u 2:3 w l t 'Blackbody'
+
+# Plot command for various outputs with spectroscopic input
+#set output 'plots/spec_clumpyGB/circinus.eps'
+#plot 'Outputs_spec/circinus1/cd/Circinus/6clumpy201410tor_8gb_bestfit_TRIM.txt' index 0 u 8:9:10 w ye t 'Photometry','' index 1 u 2:3 w l t 'Spectroscopy','' index 2 u 2:3 w l t 'AGN dust torus emission',''  index 3 u 2:3 w l t 'Graybody','' index 4 u 2:3 w l t 'Best-fit'                                     

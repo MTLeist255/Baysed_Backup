@@ -1,0 +1,3 @@
+cd# cenA 11 0
+#ID z_min z_max E(B-V) nacoJ nacoJ_err nacoH nacoH_err nacoK nacoK_err nacoLp nacoLp_err A53 A53_err pacs70 pacs70_err C89 C89_err pacs160 pacs160_err spire250 spire250_err spire350 spire350_err spire500 spire500_err
+cenA 0.00275872 0.00275872 0 0.0013 0.00033 0.0045 0.00068 0.034 0.0051 0.2 0.03 10.7 1.16  15.6 0.8 18.2 1.99 29.6 1.52 9.9 0.56 6.94 0.4 5.83 0.34

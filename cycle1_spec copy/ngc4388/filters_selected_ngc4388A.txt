@@ -1,0 +1,17 @@
+#iused iselected id name
+1 1 0	wise1	#
+1 1 1	wise2	#
+1 1 2	wise3	#
+1 1 3	wise4	#
+1 1 4	F315	#
+1 1 5	F371	#
+1 1 6	A53	#
+1 1 7	pacs70	#
+1 1 8	C89	#
+1 1 9	D154	#
+1 1 10	pacs160	#
+1 1 11	E214	#
+1 1 12	spire250	#
+1 1 13	spire350	#
+1 1 14	spire500	#
+

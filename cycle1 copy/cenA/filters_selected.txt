@@ -1,0 +1,12 @@
+#iused 	iselected id name # type beta information
+1 1 0 nacoJ # 1 0 ‘nacoJ’ (http://www.eso.org/sci/facilities/paranal/decommissioned/naco/inst/filters.html)
+1 1 1 nacoH # 1 0 ‘nacoH’ (http://www.eso.org/sci/facilities/paranal/decommissioned/naco/inst/filters.html)
+1 1 2 nacoK # 1 0 ‘nacoK’ (http://www.eso.org/sci/facilities/paranal/decommissioned/naco/inst/filters.html)
+1 1 3 nacoLp # 1 0 ‘nacoLp’ (http://www.eso.org/sci/facilities/paranal/decommissioned/naco/inst/filters.html)
+1 1 4 A53 # 1 0 ‘A53’ (https://www.sofia.usra.edu/science/proposing-and-observing/sofia-observers-handbook-cycle-5/10-instruments-vii-hawc/101-0#Table10-1 
+1 1 5 pacs70 # 1 1  Herschel PACS 70um filter (L. Dunne, Feb 2009)
+1 1 6 C89 # 1 0 ‘C89’ (https://www.sofia.usra.edu/science/proposing-and-observing/sofia-observers-handbook-cycle-5/10-instruments-vii-hawc/101-0#Table10-1)
+1 1 7 pacs160 # 1 1  Herschel PACS 160um filter (L. Dunne, Feb 20
+1 1 8 spire250 # 1 0 ‘spire250’ (http://herschel.esac.esa.int/Docs/Herschel/html/ch03s02.html)
+1 1 9 spire350 # 1 1  Herschel SPIRE 350um filter (L. Dunne, Feb 2009)
+1 1 10 spire500 # 1 1  Herschel SPIRE 500um filter (L. Dunne, Feb 2009)

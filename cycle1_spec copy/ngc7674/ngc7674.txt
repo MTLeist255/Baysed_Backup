@@ -1,0 +1,3 @@
+# ngc7674 12 0
+#ID z_min z_max E(B-V) ukirtJ ukirtJ_err ukirtH ukirtH_err ukirtK ukirtK_err ukirtLp ukirtLp_err ukirtM ukirtM_err F315 F315_err pacs70 pacs70_err pacs100 pacs100_err pacs160 pacs160_err spire250 spire250_err spire350 spire350_err spire500 spire500_err
+Ngc7674 0.02852852 0.02852852 0 0.001 0.00025 0.005 0.0005 0.0123 0.00031 0.053 0.011 0.1086 0.0108 1.75 0.18 3.66 0.201 3.61 0.187 3.52 0.197 1.74 0.101 0.725 0.041 0.372 0.021

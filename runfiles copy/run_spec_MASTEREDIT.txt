@@ -1,0 +1,4 @@
+#time ./bin/mac/bayesed --sampling 1,0,0,400,0.8,0.1,1000,-1e90,1,2,0,0,-1e90,100000,0.01 -i 0,cycle5/circinus/circinus_spec.txt --filters cycle5/circinus/filters.txt --filters_selected cycle5/circinus/filters_selected.txt   -ak 1,clumpy201410tor,1,1,1,0,0  -gb 2,gb,1,0,1,1000,200 --outdir Outputs_spec/circinus --save_bestfit --save_sample_par --polynomial 3 --sys_err_obs 0,1
+
+# run w/o a polynomial fit
+time ./bin/mac/bayesed --sampling 1,0,0,400,0.8,0.1,1000,-1e90,1,2,0,0,-1e90,100000,0.01 -i 0,cycle5/circinus/circinus_spec.txt --filters cycle5/circinus/filters.txt --filters_selected cycle5/circinus/filters_selected.txt   -ak 1,clumpy201410tor,1,1,1,0,0  -gb 2,gb,1,0,1,1000,200 --outdir Outputs_spec/circinus1 --save_bestfit --save_sample_par --sys_err_obs 0,1
